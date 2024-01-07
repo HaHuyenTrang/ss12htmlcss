@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar{
+    width: 1240px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar .search{
+    width: 1030px;
+    height: 84px;
+    border: 1px #000000 solid;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px #AFADB5;
+}
+
+.navbar .search button{
+    width: 138px;
+    height: 54px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #518581;
+    margin: 30px;
+    border: transparent;
+}
+
+.navbar .search button:hover{
+    opacity: 80%;
+}
+
+.navbar .search .search-property{
+    width: 191px;
+    height: 32px;
+    gap: 18px;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #AFADB5;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .search .search-property .search-size{
+    border: transparent none;
+    outline: none;
+}
+
+.nav .navbar .Filter{
+    width: 190px;
+    height: 84px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #AFADB5;
+}
+
+.Total{
+    width: 1240px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Total .total-product{
+    width: 356px;
+    height: 57px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Total .total-product b{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.Total .total-product p{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px, 16px, 10px, 16px;
+    background-color: #F9F9F9;
+    font-size: 16px;
+    font-weight: 700;
+    color: #518581;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Total .sort-by{
+    width: 139px;
+    height: 50px;
+    gap: 10px;
+    padding: 13px, 20px, 13px, 20px;
+    border: 1.5px;
+    background-color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

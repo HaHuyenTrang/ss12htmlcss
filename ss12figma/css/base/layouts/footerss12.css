@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-grid{
+    width: 1240px;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 753px 162px 162px 162px;
+}
+
+.footer .footer-grid .footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.footer .footer-grid .footer-left .lalasia{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 23px;
+}
+
+.footer .footer-grid .footer-left p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #151411;
+}
+
+.footer .footer-grid .footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #151411;
+}
+
+.footer .footer-grid .footer-right .product{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer-grid .footer-right .services{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer-grid .footer-right .follow{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer-grid .footer-right b{
+    font-size: 20px;
+    font-weight: 700;
+}

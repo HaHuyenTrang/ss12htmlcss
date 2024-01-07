@@ -1,0 +1,139 @@
+.class1 {
+    width: 100%;
+    height: 120px;
+    border: 2px #F3F3F3 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Eudoxus Sans;
+}
+
+.class1 .class1-1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.class1 .class1-2{
+   display: flex;
+   flex-direction: row;
+   gap: 60px;
+   list-style: none;
+   font-size: 18px;
+   font-weight: 500;
+   color: #151411;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.class1 .class1-2 li:hover{
+    color: #518581;    
+}
+
+.class1-3 .material-symbols-outlined{
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+}
+
+.class2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 122px;
+    font-family: Eudoxus Sans;
+}
+.class2 h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #151411;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.class2 p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.class3{
+    background-image: url(https://2.bp.blogspot.com/-m_aUMaMAU1Q/Vnlvm6g9YGI/AAAAAAAALQ0/P3NgRhMv6vs/s1600/GALLERYHOTRAM%2B-WWW.GALLERYHOTRAM.COM-1440x500.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.class3 .material-symbols-outlined{
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #151411;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    opacity: 70%;
+}
+
+.class3 .material-symbols-outlined:hover{
+    opacity: 40%;
+}
+
+.class3 .class3-1{
+    width: 453px;
+    height: 195px;
+    gap: 15px;
+    margin-right: 600px;
+}
+
+.class3 .class3-1 h2{
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.class3 .class3-1 p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 80%;
+}
+
+.class3 .class3-1 .class3-1-1{
+    width: 93px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 10px;
+    background-color: #518581;
+    color: #FFFFFF;
+    border: transparent;
+}
+
+.class3 .class3-2 {
+    position: absolute;
+    width: 62px;
+    height: 8px;
+    bottom: 10px;
+    left: 689px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    background-color: #FFFFFF;
+    opacity: 40%;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    background-color: #FFFFFF;
+    opacity: 100%;
+}

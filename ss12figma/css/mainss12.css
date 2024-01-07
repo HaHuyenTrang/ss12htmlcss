@@ -1,0 +1,13 @@
+@import url(./layout/header.css);
+@import url(./layout/nav.css);
+@import url(./layout/body.css);
+@import url(./layout/footer.css);
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: "Nato Sans", sans-serif;
+}
